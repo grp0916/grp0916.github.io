@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3ec85e9.css",
+    "main.js": "/static/js/main.05dbec87.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/Yung_Blue.mp4": "/static/media/Yung_Blue.3111f53fbfcc2fce12f4.mp4",
+    "static/media/Slides3.jpg": "/static/media/Slides3.6c26e848e00d627beacf.jpg",
+    "static/media/Slides1.jpg": "/static/media/Slides1.5edcf45beb081ea4794b.jpg",
+    "static/media/Slides4.jpg": "/static/media/Slides4.26597c3ec30b9b9ae28e.jpg",
+    "static/media/Slides7.jpg": "/static/media/Slides7.704b26c72b64256895bb.jpg",
+    "static/media/Slides5.jpg": "/static/media/Slides5.cba43bd14f3cae8d236a.jpg",
+    "static/media/Servicios3.png": "/static/media/Servicios3.0ba15b712ff43f36646f.png",
+    "static/media/Servicios4.png": "/static/media/Servicios4.a0a267ed7b8fc9e4ac07.png",
+    "static/media/Slides8.jpg": "/static/media/Slides8.e73ab59d4ebd72b0a4d9.jpg",
+    "static/media/Slides6.jpg": "/static/media/Slides6.3366bcac76d12b737732.jpg",
+    "static/media/Slides2.jpg": "/static/media/Slides2.2ea293d2d2e48350835b.jpg",
+    "static/media/Servicios2.png": "/static/media/Servicios2.72b889f9908227c2865a.png",
+    "static/media/Servicios1.png": "/static/media/Servicios1.9b57aa0a9c7016f56247.png",
+    "index.html": "/index.html",
+    "main.e3ec85e9.css.map": "/static/css/main.e3ec85e9.css.map",
+    "main.05dbec87.js.map": "/static/js/main.05dbec87.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ec85e9.css",
+    "static/js/main.05dbec87.js"
+  ]
+}
