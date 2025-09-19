@@ -1,0 +1,55 @@
+.footer {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* ✨ Animación de Entrada */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🏆 Contenido del Footer */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 🔗 Iconos de Redes Sociales */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+/* 🎭 Efecto Hover en Iconos */
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* 🎨 Colores de las Redes */
+.facebook:hover { color: #1877f2; }
+.instagram:hover { color: #e1306c; }
+.twitter:hover { color: #1da1f2; }
+.youtube:hover { color: #ff0000; }
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.9em;
+    }
+}

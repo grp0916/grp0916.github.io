@@ -1,0 +1,153 @@
+/* 🌟 Contenedor Principal */
+.contact-container {
+    text-align: center;
+    /* background: linear-gradient(135deg, #00c6ff, #0072ff); */
+    /* background: #f4f4f4; */
+    color: white;
+    padding: 40px 15px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* ✨ Animación de Entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🏆 Título */
+.contact-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+/* 📝 Subtítulo */
+.contact-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    opacity: 0.9;
+    color: black;
+}
+
+/* 📥 Formulario */
+.contact-form {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    width: 45%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* 🌟 Flotación del Formulario */
+.contact-form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 🔥 Campos de Entrada */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+/* 💡 Efecto al hacer foco */
+.input-group:focus-within {
+    background: rgba(255, 255, 255, 0.35);
+    transform: scale(1.02);
+    box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+/* 🎨 Input y Textarea */
+.input-group input,
+.input-group textarea {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1em;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* 🎭 Íconos */
+.icon {
+    font-size: 1.6em;
+    margin-right: 10px;
+    color: #ffcc00;
+}
+
+/* 🚀 Botón Enviar */
+.btn-enviar {
+    background: linear-gradient(135deg, #ffcc00, #ff8800);
+    color: #003366;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 🌟 Animación del Botón */
+.btn-enviar:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, #ff9900, #ff5500);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* ✨ Efecto de pulsación */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn-enviar:active {
+    animation: pulse 0.3s ease-in-out;
+}
+
+/* ✈️ Ícono del Botón */
+.send-icon {
+    font-size: 1.2em;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 75%;
+    }
+
+    .contact-title {
+        font-size: 2em;
+    }
+}
